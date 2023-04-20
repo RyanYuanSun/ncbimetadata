@@ -8,13 +8,13 @@ def readfile(filename):
 
 setup(
     name="ncbimetadata",
-    version="0.0.6",
+    version="0.0.7",
     description="ncbimetadata is a package for fast fetching and parsing metadata from ncbi database, and more functionalities are on the way!",
     long_description=readfile('README.md'),
     long_description_content_type='text/markdown',
     author="Ryan Alloriadonis",
     author_email="yuantai78@gmail.com",
-    url="https://github.com/RyanYuanSun/ncbi_metadata_parser",
+    url="https://github.com/RyanYuanSun/ncbimetadata",
     py_modules=['ncbimetadata'],
     packages=['ncbimetadata'],
     license=readfile('LICENSE'),
